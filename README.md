@@ -60,7 +60,7 @@ The game is powered by a **modular, event-driven engine architecture**:
 - **Game Layer:** weapons, enemies, vehicles, levels, progression, boss mechanics
 
 Character sprites are generated using the  
-**Universal LPC Spritesheet Generator**, ensuring consistent animation and character customization. For more information about credits See [below](#-💳-Credits)
+**Universal LPC Spritesheet Generator**, ensuring consistent animation and character customization. For more information about credits See [below](##-💳-Credits)
 
 ---
 
