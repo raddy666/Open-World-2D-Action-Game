@@ -102,7 +102,7 @@ conda activate <environment_name>
 - **Language:** Python  
 - **Framework:** PgZero  
 - **Architecture:** Object-Oriented Design  
-- **AI:** Behavior Trees, Finite State Machines  
+- **AI:** Finite State Machines
 
 ---
 
