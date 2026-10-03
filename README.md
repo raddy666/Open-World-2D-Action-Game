@@ -2,7 +2,7 @@
 
 A **2D open-world action game** built in **Python using PgZero**, featuring real-time combat, vehicles, NPC AI, and multiple interconnected city zones.
 
-This project implements a **custom-built 2D game engine and gameplay layer**, supporting **50+ concurrent entities**, modular systems, and scalable open-world simulation.
+This project implements a **gameplay systems built on PgZero and gameplay layer**, supporting **50+ concurrent entities**, modular systems, and scalable open-world simulation.
 
 ---
 
@@ -33,10 +33,10 @@ This project implements a **custom-built 2D game engine and gameplay layer**, su
 - Custom boss fight mechanics with specialized behaviors
 
 ### 🤖 AI & NPCs
-- Enemy AI implemented using behavior trees
+-  Enemy AI implemented with finite state machines
 - Finite state machines for NPC and player logic
 - Autonomous NPC movement and interaction
-- Difficulty scaling through adaptive spawning and AI aggression
+- Three levels of increasing difficulty ending in a boss fight
 
 ### 🚗 Vehicle System
 - Player vehicle hijacking mechanics
@@ -47,12 +47,7 @@ This project implements a **custom-built 2D game engine and gameplay layer**, su
 
 ## 🧠 Engine Design
 
-The game is powered by a **modular, event-driven engine architecture**:
-
-- Decoupled systems for input, AI, combat, physics, and world logic
-- Central event dispatcher for inter-system communication
-- Spatial partitioning for efficient collision detection and entity updates
-- Designed for extensibility and future system expansion
+The game runs on PgZero's update/draw loop with a tile-grid map for terrain checks.
 
 ### Engine vs Game Logic
 
@@ -113,6 +108,7 @@ conda activate <environment_name>
 
 ## 🚧 Possible Extensions
 
+- **AI:** Finite State Machines
 - Save / load system  
 - Procedural world expansion  
 - Advanced pathfinding (A*)  
