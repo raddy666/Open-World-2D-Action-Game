@@ -1524,8 +1524,8 @@ def load_player_spritesheets():
         player_animation['spritesheets']['shoot'] = pygame.image.load('images/shoot.png')
         
                              
-        GUN_CONFIG['image'] = pygame.image.load('images/ak47.png')
-        BULLET_CONFIG['image'] = pygame.image.load('images/rifleammosmall.png')
+        GUN_CONFIG['image'] = pygame.image.load('images/AK47.png')
+        BULLET_CONFIG['image'] = pygame.image.load('images/RifleAmmoSmall.png')
         
         print("Player spritesheets and weapons loaded successfully!")
     except Exception as e:
